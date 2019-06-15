@@ -1,0 +1,332 @@
+
+
+
+
+
+[
+    {
+        "id": "001",
+        "name": "Eggs and Bacon",
+        "isVegetarian": false,
+        "category": "BreakFast",
+        "image": "https://s.yimg.com/ny/api/res/1.2/QuF1n3NA4x1zMbqSjGw2Iw--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/88de73409c658ae6042bd0dabb87d648",
+        "rating": 4,
+        "price": "Ksh.120"
+      },
+      {
+        "id": "002",
+        "name": "Mahamri",
+        "isVegetarian": false,
+        "category": "BreakFast",
+        "price": "Ksh.50",
+          "image":"http://4.bp.blogspot.com/-ok1WsqRXsG4/VISNCWGXmII/AAAAAAABCMo/1jyQCJqTZrU/s1600/mahamri.jpg"
+      },
+      {
+        "id": "003",
+        "name": "Fried ArrowRoots",
+        "isVegetarian": true,
+        "category": "BreakFast",
+        "price": "Ksh.70",
+        "image" :"https://organicmsosi.files.wordpress.com/2016/10/wp-image-962633406jpg.jpg"
+      },
+      {
+        "id": "004",
+        "name": "pancake",
+        "isVegetarian": false,
+        "category": "BreakFast",
+        "price": "Ksh.60",
+          "image":"https://upload.wikimedia.org/wikipedia/commons/6/65/Breakfast_Pancakes.jpg"
+      },
+      {
+        "id": "005",
+        "name": "Chapati",
+        "isVegetarian": true,
+        "category": "BreakFast",
+        "price": "Ksh.40",
+          "image":"https://2.bp.blogspot.com/-agre1TsyPZo/WcU32-ER0vI/AAAAAAAAE_w/gvnjONR3aBgMPNKUbzqQlX90v3jVrGheACKgBGAs/s1600/IMG_20170910_155852.jpg"
+      },
+      {
+        "id": "006",
+        "name": "Omelette",
+        "isVegetarian": true,
+        "category": "BreakFast",
+        "price": "Ksh.100",
+          "image":"https://www.thespruceeats.com/thmb/lCxPM44YFJCeZM8-kKO0ZzfDwIE=/1024x1024/smart/filters:no_upscale()/broccoli-and-ham-quiche-5b0555fcff1b78003bc07cbc.jpg"
+      },
+      {
+        "id": "007",
+        "name": "Boiled Egg",
+        "isVegetarian": false,
+        "category": "BreakFast",
+        "price": "Ksh.30",
+          "image":"https://pbs.twimg.com/media/Ci_jZnqW0AAgca1.jpg"
+      },
+      
+      {
+        "id": "008",
+        "name": "African Tea",
+        "isVegetarian": false,
+        "category": "Hot Drinks",
+        "price": "Ksh.40",
+          "image":"https://cdn.notonthehighstreet.com/fs/c5/e8/4f6d-d738-4b16-8e00-6865d9f87b27/original_south-west-london-teacup-and-saucer-set.jpg"
+      },
+      {
+        "id": "009",
+        "name": "Espresso",
+        "isVegetarian": false,
+        "category": "Hot Drinks",
+        "price": "Ksh.140",
+          "image":"https://n3tr0nheuw15q0rh-zippykid.netdna-ssl.com/wp-content/uploads/2017/04/IMG_4605-e1491595566395-1024x1024.jpg"
+      },
+      {
+        "id": "010",
+        "name": "Latte",
+        "isVegetarian": false,
+        "category": "Hot Drinks",
+        "price": "Ksh.150",
+          "image":"https://cdn.notonthehighstreet.com/fs/31/3f/a8e8-e785-4fec-a1f0-0f46a4e34ab8/original_turmeric-latte.jpg"
+      },
+      {
+        "id": "011",
+        "name": "Hot Chocolate",
+        "isVegetarian": false,
+        "category": "Hot Drinks",
+        "price": "Ksh.110",
+          "image":"https://www.bettys.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/e/bettys-hot-chocolate-in-a-mug-2001088_2.jpg"
+      },
+      {
+        "id": "012",
+        "name": "African Porridge",
+        "isVegetarian": false,
+        "category": "Hot Drinks",
+        "price": "Ksh.75",
+          "image":"https://chocolateclass.files.wordpress.com/2015/02/chocolate-atole.jpg"
+      },
+      {
+        "id": "013",
+        "name": "Cocktail juice",
+        "isVegetarian": false,
+        "category": "SoftDrinks",
+        "price": "Ksh.100",
+        "image":"https://www.lemonsforlulu.com/wp-content/uploads/2017/05/Carribean-Rum-Punch-Recipe-2.jpg"
+      },
+      {
+        "id": "014",
+        "name": "Soda",
+        "isVegetarian": false,
+        "category": "SoftDrinks",
+        "price": "Ksh.80",
+        "image":"http://www.finese.co.ke/images/menu/soda1.jpg"
+      },
+      {
+        "id": "015",
+        "name": "Passion Juice",
+        "isVegetarian": true,
+        "category": "SoftDrinks",
+        "price": "Ksh.100",
+        "image":"https://leelalicious.com/wp-content/uploads/2016/04/Easy-Mango-Lassi-with-Passion-Fruit-Juice.jpg"
+      },
+      {
+        "id": "016",
+        "name": "Mango Juice",
+        "isVegetarian": true,
+        "category": "SoftDrinks",
+        "price": "Ksh.100",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBeu3sjPiZjhav7eykOA-xAb09j2d6CXMItt7CHK_jD9itt_1MHA"
+      },
+      {
+        "id": "017",
+        "name": "Githeri",
+        "isVegetarian": true,
+        "category": "MainDishes",
+        "price": "Ksh.120",
+        "image":"https://i2.wp.com/yummy.co.ke/wp-content/uploads/2013/01/IMG_6003.jpg"
+      },
+      {
+        "id": "018",
+        "name": "Pilau Beef",
+        "isVegetarian": false,
+        "category": "MainDishes",
+        "price": "Ksh.210",
+        "image":"https://www.afeliaskitchen.com/wp-content/uploads/2016/04/Akhni-Fulab-Pilau-Lambs-Meat-970x610.jpg"
+      },
+      {
+        "id": "019",
+        "name": "Ugali & Fish",
+        "isVegetarian": false,
+        "category": "MainDishes",
+        "price": "Ksh.300",
+        "image":"http://bluehuthotel.co.ke/wp-content/uploads/2016/11/lunch-1.jpg"
+      },
+      {
+        "id": "020",
+        "name": "Beef Stew & Chapati",
+        "isVegetarian": false,
+        "category": "MainDishes",
+        "price": "Ksh.250",
+        "image":"http://3.bp.blogspot.com/-CNXHmFcHnCE/UshjUnVqLUI/AAAAAAAAATU/q1rUF0rU_GA/s1600/DSC_2671%255B1%255D.jpg"
+      }
+      ,
+      {
+        "id": "021",
+        "name": "Beef Stew & Mukimo",
+        "isVegetarian": false,
+        "category": "MainDishes",
+        "price": "Ksh.250",
+        "image":"https://pbs.twimg.com/media/CAcvUfNVEAAgTAZ.jpg:large"
+      }
+      ,
+      {
+        "id": "022",
+        "name": "Chicken Biryani",
+        "isVegetarian": false,
+        "category": "MainDishes",
+        "price": "Ksh.280",
+        "image":"https://recipes.timesofindia.com/photo/54308405.cms"
+      }
+      ,
+      {
+        "id": "023",
+        "name": "Masala Fries",
+        "isVegetarian": true,
+        "category": "MainDishes",
+        "price": "Ksh.150",
+        "image":"https://img-global.cpcdn.com/001_recipes/5b20917d6c7401bc/751x532cq70/simple-masala-chips-recipe-main-photo.jpg"
+      }
+      ,
+      {
+        "id": "024",
+        "name": "Fries",
+        "isVegetarian": true,
+        "category": "MainDishes",
+        "price": "Ksh.150",
+        "image":"https://panlasangpinoy.com/wp-content/uploads/2011/10/Homemade-Crispy-French-Fries-Front.JPG"
+      }
+      
+      ,
+      {
+        "id": "025",
+        "name": "Rice & Njahi",
+        "isVegetarian": true,
+        "category": "MainDishes",
+        "price": "Ksh.160",
+        "image":"https://my254connect.com/wp-content/uploads/2017/02/maxresdefault-4.jpg"
+      }
+      ,
+      {
+        "id": "026",
+        "name": "chapati & Beans",
+        "isVegetarian": true,
+        "category": "MainDishes",
+        "price": "Ksh.160",
+        "image":"https://benmonci.files.wordpress.com/2011/09/2011-07-27-2011-07-july-097.jpg"
+      }
+      ,
+      {
+        "id": "027",
+        "name": "Thai Curry",
+        "isVegetarian": true,
+        "category": "Cuisines",
+        "price": "Ksh.350",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Red_roast_duck_curry.jpg/1200px-Red_roast_duck_curry.jpg"
+      }
+      ,
+      {
+        "id": "028",
+        "name": "Bhajia",
+        "isVegetarian": true,
+        "category": "Cuisines",
+        "price": "Ksh.120",
+        "image":"https://farm7.static.flickr.com/6060/6349565911_0a31f6388d_o.jpg"
+      }
+      ,
+      {
+        "id": "029",
+        "name": "Tofu",
+        "isVegetarian": true,
+        "category": "Cuisines",
+        "price": "Ksh.280",
+        "image":"https://img-global.cpcdn.com/001_recipes/f50a15574f879bb2/751x532cq70/tofu-with-spring-onion-recipe-main-photo.jpg"
+      }
+      ,
+      {
+        "id": "030",
+        "name": "Tamarind",
+        "isVegetarian": true,
+        "category": "Cuisines",
+        "price": "Ksh.400",
+        "image":"https://uds.gnst.jp/rest/img/empxfacv0000/s_0n78.jpg?dt=1524716937"
+      }
+      ,
+      {
+        "id": "031",
+        "name": "Ohcha",
+        "isVegetarian": true,
+        "category": "Cuisines",
+        "price": "Ksh.450",
+        "image":"https://eatout2.scdn5.secure.raxcdn.com/images/restaurant_gallery/3394-728-1462274655.jpg"
+      }
+      ,
+      {
+        "id": "032",
+        "name": "Sausage",
+        "isVegetarian": false,
+        "category": "Snacks",
+        "price": "Ksh.40",
+        "image":"https://img-global.cpcdn.com/001_recipes/a42951d28e04914c/751x532cq70/shallow-fried-sausages-recipe-main-photo.jpg"
+      }
+      ,
+      {
+        "id": "033",
+        "name": "Kebab",
+        "isVegetarian": false,
+        "category": "Snacks",
+        "price": "Ksh.60",
+        "image":"http://www.pikachakula.com/wp-content/uploads/2017/10/Kenyan-Mutton-Kebabs-003.jpg"
+      }
+      ,
+      {
+        "id": "034",
+        "name": "Black Forest",
+        "isVegetarian": true,
+        "category": "Snacks",
+        "price": "Ksh.120",
+        "image":"https://www.rockrecipes.com/wp-content/uploads/2007/09/DSC_0802-2.jpg"
+      }
+      ,
+      {
+        "id": "035",
+        "name": "Marble cake",
+        "isVegetarian": true,
+        "category": "Snacks",
+        "price": "Ksh.80",
+        "image":"https://img-global.cpcdn.com/001_recipes/5aa1f39593a3897b/751x532cq70/marble-cake-recipe-main-photo.jpg"
+      }
+      ,
+      {
+        "id": "036",
+        "name": "Brown chapati",
+        "isVegetarian": true,
+        "category": "Snacks",
+        "price": "Ksh.40",
+        "image":"https://img-global.cpcdn.com/001_recipes/5b62845d1fd7d1dd/751x532cq70/cinnamon-chapati-recipe-main-photo.jpg"
+      }
+      ,
+      {
+        "id": "037",
+        "name": "Sweet Potato",
+        "isVegetarian": true,
+        "category": "Snacks",
+        "price": "Ksh.60",
+        "image":"https://i1.wp.com/yummy.co.ke/wp-content/uploads/2015/02/sweet_taters.jpg?resize=720%2C533"
+      }
+      ,
+      {
+        "id": "038",
+        "name": "Donut",
+        "isVegetarian": true,
+        "category": "Snacks",
+        "price": "Ksh.50",
+        "image":"https://d1alt1wkdk73qo.cloudfront.net/images/guide/3678737dd68f4547af16fba6513f421e/640x478_ac.jpg"
+      }
+]

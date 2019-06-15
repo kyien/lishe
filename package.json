@@ -1,0 +1,43 @@
+{
+  "name": "Lishe",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/netinfo": "^3.2.1",
+    "native-base": "^2.12.1",
+    "react": "16.8.3",
+    "react-native": "0.59.5",
+    "react-native-firebase": "^5.4.0",
+    "react-native-form-validator": "^0.2.0",
+    "react-native-gesture-handler": "^1.2.1",
+    "react-native-responsive-screen": "^1.2.2",
+    "react-native-smart-carousel": "^1.1.0",
+    "react-native-smart-splash-screen": "^2.3.5",
+    "react-native-star-rating": "^1.1.0",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^3.9.1",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "@types/redux-persist": "^4.3.1",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.0",
+    "react-test-renderer": "16.8.3",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

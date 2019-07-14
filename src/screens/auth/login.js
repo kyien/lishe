@@ -60,8 +60,7 @@ import {
 
       await  this.props.loginUser(this.state.email,this.state.password)
 
-
-          global.User= this.props.AuthUser
+      global.User= this.props.AuthUser
         this.props.navigation.navigate('main')
         
 
@@ -158,7 +157,6 @@ import {
     return{
       Fetching:state.Auth.isFetching,
       AuthUser:state.Auth.user
-      // Authenticated:state.Auth.loggedIn
     }
 
   }
@@ -179,7 +177,19 @@ import {
             }).catch((error)=>console.log(error))
         })
     .catch ((error) =>{
-      dispatch(AuthActions.loginError(error));
+      switch (error.code) {
+       case 'auth/invalid-email':
+      dispatch(AuthActions.loginError('email entered is invalid email'))
+        case 'auth/user-disabled':
+     dispatch(AuthActions.loginError('user account is disabled'))
+        case 'auth/user-not-found':
+     dispatch(AuthActions.loginError('user account not found'))
+        case 'auth/wrong-password':
+     dispatch(AuthActions.loginError('wrong password'))
+
+      default:
+          console.log(error.message);
+      }
     })
       }
     }

@@ -11,6 +11,8 @@ const AuthinitialState = {
     user: null
   }
 
+
+
 const cartItems=(state = [] ,action)=>{
     switch(action.type)
     {
@@ -105,7 +107,7 @@ const Favorites=(state = [] ,action)=>{
 
         return state.filter((favItem)=>{
 
-            return favItem.itemId != action.payload
+            return favItem.id != action.payload
         })
 
         default:

@@ -14,7 +14,19 @@ import { connect } from "react-redux"
 
     nav_status=()=>{
 
-        return   this.props.navigation.navigate(this.props.Authenticated ? 'main' : 'auth')
+        if(this.props.Authenticated ){
+            
+            global.User= this.props.AuthUser
+            global.fav=this.props.favItems
+            return   this.props.navigation.navigate('main' )
+
+        }
+        else{
+
+            return   this.props.navigation.navigate('auth')
+
+        }
+
  
     }
 
@@ -29,7 +41,11 @@ import { connect } from "react-redux"
 
 const mapStateToProps= (state) =>{
     return{
-        Authenticated:state.Auth.loggedIn
+        Authenticated:state.Auth.loggedIn,
+        AuthUser:state.Auth.user,  
+        favItems:state.Favorites
+
+
     }
 }
 

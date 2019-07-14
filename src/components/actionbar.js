@@ -25,7 +25,7 @@ render(){
                     />:
                     <Menubar navigation={this.props.navigation} />}
         <Text style={styles.title}>{this.props.title}</Text>
-        <CartIcon navigation={this.props.navigation}/>
+      <CartIcon navigation={this.props.navigation}/>
         </Header>
 
     )

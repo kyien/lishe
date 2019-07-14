@@ -37,7 +37,7 @@ export default class CategoryList extends Component{
         console.log(params)
         return(
             <View style={styles.container}>
-    <ActionBar navigation={this.props.navigation} title={params[0].category} icon={true}/>
+    <ActionBar navigation={this.props.navigation} title={params[0].category} icon={true} />
 
 
       <ScrollView >

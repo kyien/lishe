@@ -40,10 +40,13 @@ class ShoppingCart extends PureComponent{
         console.log(total)
     }
 
+    oncheckout=()=>{
+        this.props.navigation.navigate('checkout')
+    }
+
 
     render(){
-        console.log(this.props.cartItems)
-        console.log(this.props.cartItems.length)
+
 
         const sums= this.props.cartItems.map(item=>{
             return item.itemPrice.substring(4) * item.itemqty
@@ -156,7 +159,7 @@ class ShoppingCart extends PureComponent{
 
             }</Text>
             </View>
-            <TouchableOpacity style={styles.cat_btn} >
+            <TouchableOpacity style={styles.cat_btn} onPress={this.oncheckout}>
                 <Text style={{color:'#fff',fontSize:20}}>CHECK OUT</Text>
             </TouchableOpacity>
         </View>

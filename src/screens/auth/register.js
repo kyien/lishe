@@ -79,8 +79,7 @@ import {
                     }
                 
                 
-              )})
-                  .then((doc)=>{
+              ) .then((doc)=>{
                
                     console.log(doc)
                     this.setState({isloading:false})
@@ -95,8 +94,20 @@ import {
 
                   }).catch((error)=>{
                     console.log(error)
+
                   })
-      }
+                }) .catch((error)=>{
+                  switch (error.code) {
+                    case 'auth/email-already-in-use':
+                   Alert.alert('email already exists!')
+                     case 'auth/invalid-email':
+                  Alert.alert('Invalid email!')
+                    
+                   default:
+                       console.log(error.message);
+                   }
+                  })
+                }
 
       else {
         this.setState({isloading:false})

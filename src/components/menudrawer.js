@@ -1,7 +1,7 @@
 import React,{Component}  from 'react'
 import { View,Text, StyleSheet,Platform,Dimensions,Image,ScrollView} from "react-native"
 
-import {Container,List,ListItem,Left,Header,Right,Content,Body,Icon} from 'native-base'
+import {Container,Badge,Right,ListItem,Left,Header,Body,Icon} from 'native-base'
 import {
     widthPercentageToDP as wp,
     heightPercentageToDP as hp,
@@ -84,6 +84,11 @@ import {
             <Icon type="Ionicons" name="heart" style={{color:'white'}}></Icon>
 
             <Text style={styles.nav_text}>Favorites</Text>
+            
+              <Badge warning style={{left:wp('15%'),justifyContent:'center'}}>
+              <Text style={{color:'#fff'}}>{global.fav.length}</Text>
+              </Badge>
+            
              </ListItem>
             <ListItem onPress={()=>this.props.navigation.navigate('favorites')}last>
             <Icon type="FontAwesome" name="truck" style={{color:'white'}}></Icon>
@@ -112,7 +117,7 @@ const mapStateToProps=(state) =>{
 
   return{
 
-  AuthUser:state.Auth.user
+  AuthUser:state.Auth.user,
   }
 }
   const mapDispatchToProps= (dispatch)=>{

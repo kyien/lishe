@@ -13,6 +13,7 @@ import CategoryList from "./screens/categories/categorylist";
 import ListItem from "./screens/categories/listitem";
 import Favorites from './screens/favorites/index'
 import ShoppingCart from './components/cart'
+import CheckOut from './screens/checkout/checkout'
 import Login from './screens/auth/login'
 import Register from './screens/auth/register'
 import CheckAuth from './screens/auth/checkauth'
@@ -39,6 +40,9 @@ const categoryNav=createStackNavigator({
     },
     cart:{
         screen:ShoppingCart
+    },
+    checkout:{
+        screen:CheckOut
     }
 }
 ,
